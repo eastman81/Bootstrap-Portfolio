@@ -13,7 +13,8 @@ p {
 }
 
 h2 {
-	color: #4aaaa5;
+	color: #5bc0de;
+	padding-bottom: 2px;
 	border-bottom-style: solid; 
 	border-bottom-width: 1px;
 	border-bottom-color: #dddddd;
@@ -27,7 +28,7 @@ h2 {
  }
 
 .navbar-brand {
-	background: #4aaaa5;
+	background: #5bc0de;
 	color: #ffffff;
 	font-weight: bold;
 	font-size: 20px;
@@ -37,25 +38,39 @@ h2 {
 .panel-default>.panel-heading {
 	background-color: #ffffff;
     border-color: #dddddd;
-    color: #4aaaa5;
+    color: #5bc0de;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .img_id {
-	background: #4aaaa5;
+	background: #5bc0de;
     color: white;
     text-align: center;
     padding: 10px;
     text-align: center;
     position: relative;
-    bottom: -240px;
+    bottom: -260px;
 }
 
-/*.fixit {
-	clear: both;
-  	overflow: auto;
+.main-sec {
+	background-color: #ffffff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/*.img_size {
+	max-width: 90px;
+    max-height: 90px;
 }*/
 
+.btn-block {
+    width: 100%;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 /*Sticky Footer*/
 html {
   position: relative;
@@ -75,7 +90,7 @@ body {
   text-align: center;
   background: #666666;
   border-top-style: solid;
-  border-top-color: #4aaaa5;
+  border-top-color: #5bc0de;
   border-width: 6px;
   padding: 20px 0px;
   color: #777777;
